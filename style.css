@@ -1,0 +1,48 @@
+.box {
+    width: 300px;
+    margin: 100px auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    padding-left: 5px;
+    width: 100%;
+    min-height: 46px;
+    position: relative;
+    margin: 15px 0;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: 1px inset black;
+    border-radius: 3px;
+}
+
+form input[type="button"] {
+    border-bottom: none;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.comment {
+    position: absolute;
+    width: 230px;
+    height: 18px;
+    background-color: red;
+    margin: -20px;
+    margin-left: 5px;
+    font-size: 14px;
+    border: 1px solid red;
+    border-radius: 5px;
+
+}
+
+span {
+    display: none;
+    position: relative;
+    left: 276px;
+    top: -36px;
+}

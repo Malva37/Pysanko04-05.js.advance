@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+        integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="box">
+        <h2>Please sign up</h2>
+        <form action="" name=form>
+            <div>
+                <label for="firstName">
+                    <input type="text" name='firstName' placeholder="First name" id="firstName">
+                    <span></span>
+                </label>
+                <div id="commentFirstName" class="comment">Please provide a valid First Name</div>
+            </div>
+
+            <div>
+                <label for="lastName">
+                    <input type="text" name='lastName' placeholder="Last name" id="lastName">
+                    <span></span>
+                </label>
+                <div id="commentLastName" class="comment">Please provide a valid Last Name</div>
+            </div>
+
+            <div>
+                <label for="email">
+                    <input type="email" name='email' placeholder="Email address" id="email">
+                    <span></span>
+                </label>
+                <div id="commentEmail" class="comment">Please provide a valid Email address</div>
+            </div>
+
+            <div>
+                <label for="phoneNumber">
+                    <input type="text" name='phoneNumber' placeholder='Phone number' id="phoneNumber">
+                    <span></span>
+                </label>
+                <div id="commentPhoneNumber" class="comment">Please provide a valid Phone number</div>
+            </div>
+
+            <div>
+                <label for="password">
+                    <input type="password" name='password' placeholder="Password" id="password">
+                    <span></span>
+                </label>
+                <div id="commentPassword" class="comment">Please provide a valid Password</div>
+            </div>
+
+            <input type="button" name='signUp' class="signUp" value="Sign Up">
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jquery.maskedinput.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
